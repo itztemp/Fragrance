@@ -5,11 +5,12 @@ end
 local Messages = {
 	"WHO WANTS A FREE TORPEDO",
 	"--> ,gg/cezkot",
-	"I NEED THIS WHOLE JAILBREAK TO COME JOIN THE GIVEAWAY HYPERSHIFT $15",
+	"I NEED THIS WHOLE JAILBREAK TO COME JOIN THE SQUAD",
+	"HYPER SHIFT IS ONLY 15 BUX!",
 	"WE NEED MODS IN THE SERVER"
 }
 
-for i = 1, 30 do
+for i = 1, 12 do
 	wait(1)
 	pcall(function()
 		game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(Messages[math.random(1, #Messages)], "All")
