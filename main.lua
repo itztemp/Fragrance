@@ -3,11 +3,10 @@ if not game:IsLoaded() then
 end
 
 local Messages = {
-	"WHO WANTS A FREE TORPEDO",
-	"--> ,gg/cezkot",
-	"I NEED THIS WHOLE JAILBREAK TO COME JOIN THE SQUAD",
-	"HYPER SHIFT IS ONLY 15 BUX!",
-	"WE NEED MODS IN THE SERVER"
+	"TORP IS CHEAP!",
+	"BEAM IS CHEAP!",
+	"HYPERSHIFT IS CHEAP!",
+	"--> ,gg/cezkot"
 }
 
 for i = 1, 12 do
