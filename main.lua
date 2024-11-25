@@ -1,3 +1,7 @@
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+
 local Messages = {
 	"WHO WANTS A FREE TORPEDO",
 	"--> ,gg/cezkot",
@@ -13,6 +17,9 @@ for i = 1, 30 do
 end
 
 queue_on_teleport([[
+   if not game:IsLoaded() then
+	game.Loaded:Wait()
+   end
    loadstring(game:HttpGet("https://raw.githubusercontent.com/itztemp/Fragrance/refs/heads/main/main.lua"))()
 ]])
 
