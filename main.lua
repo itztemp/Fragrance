@@ -13,7 +13,7 @@ for i = 1, 30 do
 end
 
 queue_on_teleport([[
-   
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/itztemp/Fragrance/refs/heads/main/main.lua"))()
 ]])
 
 local Player = game:GetService("Players").LocalPlayer
